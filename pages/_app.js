@@ -1,5 +1,14 @@
-import '../styles/global.css'
+import App from 'next/app';
+import { Grommet } from 'grommet';
+import { hpe } from 'grommet-theme-hpe';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props
+    return (
+      <Grommet theme={hpe}>
+        <Component {...pageProps} />
+      </Grommet>
+    )
+  }
 }
