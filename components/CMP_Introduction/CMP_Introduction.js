@@ -31,8 +31,10 @@ const StyledHeading = styled(Heading)`
   position: relative;
   text-transform: uppercase;
   padding-bottom: 20px;
-  font-family: 'MetricHPE Black', Arial, sans-serif;
-  font-weight: 500;
+  // font-family: 'MetricHPE Black', Arial, sans-serif;
+  font-family: 'Metric', Arial, sans-serif;
+  // font-weight: 500;
+  font-weight: 700;
   margin-top: 20px;
   margin-bottom: 13px;
   font-size: 28px;
