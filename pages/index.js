@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { Grommet } from 'grommet';
+import Link from 'next/link'
+import { Grommet, Box } from 'grommet';
 import { hpe } from 'grommet-theme-hpe';
 import Introduction from '../components/CMP_Introduction/CMP_Introduction';
 
@@ -15,6 +16,12 @@ export default function Home() {
         />
       </Head>
       <Introduction />
+
+      <Box pad="xlarge" align="center">
+        <Link href="/portfolio/cybersecurity">
+          <a>Cybersecurity</a>
+        </Link>
+      </Box>
     </Grommet>
   )
 }
