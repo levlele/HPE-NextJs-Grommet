@@ -1,3 +1,3 @@
-# NexJs + Grommet
+# Next Js + Grommet
 
 ## HPE Education
